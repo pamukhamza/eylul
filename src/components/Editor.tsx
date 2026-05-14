@@ -97,7 +97,7 @@ export default function Editor({ value, onChange }: Props) {
 
   return (
     <div className="rounded-2xl border border-stone-200 bg-white overflow-hidden">
-      <div className="flex flex-wrap gap-1 p-2 border-b border-stone-200 bg-stone-50 sticky top-14 z-10">
+      <div className="flex flex-wrap gap-1 p-2 border-b border-stone-200 bg-stone-50">
         <button
           type="button"
           onClick={() => editor.chain().focus().toggleBold().run()}
